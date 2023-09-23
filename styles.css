@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(226,225,224);
+}
+.blog{
+	display:grid;
+	grid-template-columns:repeat(4,200px);
+	grid-gap:1rem;
+}
+h4{
+	text-align:center;
+}
+li{
+	list-style:none;
+	padding:6px;
+}
+.news{
+	background-color:white;
+}
+.reviews{
+	background-color:white;
+}
+.tips{
+	background-color:white;
+}
+.interviews{
+	background-color:white;
+}
