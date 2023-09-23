@@ -26,3 +26,8 @@ li{
 .interviews{
 	background-color:white;
 }
+@media screen and (max-width:860px){
+	.blog{
+		grid-template-columns:repeat(3,200px);
+	}
+}
